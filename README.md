@@ -24,8 +24,8 @@ More sessions will be added after the Kickoff once we've received feedback on th
 
 | Date/Time         	| View in your timezone                	| Topic   	| Guests         	| Registration Link      	| Recording 	|
 |-------------------	|--------------------------------------	|---------	|----------------	|------------------------	|-----------	|
-| July 23, 15:00UTC 	| https://everytimezone.com/s/ed0bcd55 	| Kickoff 	| Matteo Collina 	| https://lu.ma/lx3hljhl 	| 🔜         	|
-| July 30, 15:00UTC 	| https://everytimezone.com/s/10c90b21 	| 🔜       	| 🔜              	| https://lu.ma/15s46srh 	| 🔜         	|
+| July 23, 15:00UTC 	| https://everytimezone.com/s/cafd6261 	| Kickoff 	| Matteo Collina 	| https://lu.ma/lx3hljhl 	| 🔜         	|
+| July 30, 15:00UTC 	| https://everytimezone.com/s/00ca161f 	| 🔜       	| 🔜              	| https://lu.ma/15s46srh 	| 🔜         	|
 
 ### Things to keep in mind
 
