@@ -1,0 +1,87 @@
+---
+import Logo from '../components/svg/Logo.astro';
+import Discord from '../components/svg/Discord.astro';
+import Github from '../components/svg/Github.astro';
+// import Twitter from '../components/Twitter.astro';
+import Mastodon from '../components/svg/Mastodon.astro';
+import External from '../components/svg/External.astro';
+
+const today = new Date();
+---
+<footer class="bg-gray-50 dark:bg-gray-800">
+  <div class="p-4 py-6 mx-auto max-w-screen-xl md:p-8 lg:-10">
+      <div class="grid grid-cols-2 gap-8 lg:grid-cols-5">
+          <div class="font-body col-span-2">
+              <a href="#" class="flex items-center mb-2 text-2xl font-semibold text-gray-900 sm:mb-0 dark:text-white">
+                  <Logo />
+                  axodotdev
+              </a>
+              <p class="font-body my-4 font-light text-gray-500 dark:text-gray-400">axodotdev builds release engineering tools for portable and secure software.</p>
+              <ul class="flex mt-5 space-x-6">
+                  <li>
+                      <a href="https://github.com/axodotdev" class="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400">
+                        <Github />
+                      </a>
+                  </li>
+                  <li>
+                      <a href="https://mastodon.social/@axodotdev" class="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400">
+                        <Mastodon />
+                      </a>
+                  </li>
+                  <li>
+                      <a href="https://twitter.com/axodotdev" class="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400">
+                        <!-- <Twitter /> -->
+                      </a>
+                  </li>
+                  <li>
+                      <a href="https://discord.gg/gDXDvUKbkm" class="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400">
+                        <Discord />
+                      </a>
+                  </li>
+              </ul>
+          </div>
+          <div class="lg:mx-auto">
+              <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Company</h2>
+              <ul class="font-body text-gray-500 dark:text-gray-400">
+                  <li class="mb-4">
+                      <a href="/about" class=" hover:underline">About</a>
+                  </li>
+                  <li class="mb-4">
+                      <a href="https://blog.axo.dev" class="hover:underline">Blog <External /></a>
+                  </li>
+              </ul>
+          </div>
+          <div class="lg:mx-auto">
+              <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Get help</h2>
+              <ul class="font-body text-gray-500 dark:text-gray-400">
+                  <li class="mb-4">
+                      <a href="https://discord.gg/gDXDvUKbkm" class="hover:underline">Discord <External /></a>
+                  </li>
+                  <li class="mb-4">
+                      <a href="https://github.com/axodotdev" class="hover:underline">GitHub <External /></a>
+                  </li>
+                  <li class="mb-4">
+                      <a href="mailto:hello@axo.dev" class="hover:underline">hello@axo.dev</a>
+                  </li>
+              </ul>
+          </div>
+ <!--         <div class="lg:mx-auto">
+              <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+              <ul class="font-body text-gray-500 dark:text-gray-400">
+                  <li class="mb-4">
+                      <a href="#" class="hover:underline">Privacy Policy</a>
+                  </li>
+                  <li class="mb-4">
+                      <a href="#" class="hover:underline">Licensing</a>
+                  </li>
+                  <li class="mb-4">
+                      <a href="#" class="hover:underline">Terms</a>
+                  </li>
+              </ul>
+          </div> -->
+      </div>
+      <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8">
+      <span class="font-body pb-4 block text-sm text-center text-gray-500 dark:text-gray-400">© {today.getFullYear()} <a href="#" class="hover:underline">Axo Developer Co</a>. All Rights Reserved.</span>
+      <span class="font-body block text-sm text-center text-gray-500 dark:text-gray-400">Axo Developer Co is headquartered in Austin, TX, USA and operates fully distributed from the United States and Canada.</span>
+  </div>
+</footer>
